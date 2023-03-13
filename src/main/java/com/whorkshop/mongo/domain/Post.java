@@ -12,7 +12,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import com.whorkshop.mongo.dto.AuthorDTO;
 import com.whorkshop.mongo.dto.CommentDTO;
 
-@Document(collation = "post")
+@Document("post")
 public class Post implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
